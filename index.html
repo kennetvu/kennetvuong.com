@@ -1,9 +1,86 @@
-<html>
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <!-- If you delete this meta tag World War Z will become a reality -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kennet Vuong</title>
+
+  <link rel="stylesheet" href="lib/foundation/css/foundation.css">
 </head>
 <body>
+  <!-- Navbar -->
+  <div class="contain-to-grid sticky">
+    <nav class="top-bar" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="#">Kennet Vuong</a></h1>
+        </li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Contact</a></li>
+          <li class="has-dropdown"><a href="#">Links</a>
+            <ul class="dropdown">
+              <li><a href="">Github</a></li>
+              <li><a href="">Bitbucket</a></li>
+              <li><a href="">Facebook</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </nav>
+  </div>
+  <!-- End of navbar -->
 
+  <!-- Content -->
+  <div class="row">
+    <div class="medium-12 columns ">
+      <h2 class="text-center">About</h2>
+      <p>My name is Kennet Vuong and I am 22 years old. Currently a master student at University of Oslo and Simula Research Labratory</p>
+      <p>Im intersted in all kind of technology and programming languages, love to learn new stuff and extend my knowledge and improve my developing skills</p>
+    </div>
+    <div class="medium-12 columns">
+      <h2 class="text-center">Education</h2>
+      <ul class="square">
+        <li>2012 - Now
+          <ul>
+            <li>University of oslo &amp; Simula Research Labratory</li>
+            <li>Network and distributed systems</li>
+            <li>Master</li>
+          </ul>
+        </li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="medium-12 columns">
+      <h2 class="text-center">Skills</h2>
+      CSS:
+      <div class="progress">
+        <span class="meter" style="width:40%"></span>
+      </div>
+    </div>
+    <div class="medium-12 columns">
+      <h2 class="text-center">Contact</h2>
+    </div>
+  </div>
+  <!-- end of content -->
+  <script src="lib/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="lib/foundation/js/foundation.min.js"></script>
+  <script src="lib/modernizr/modernizr.js"></script>
+  <script>
+  $(document).foundation();
+  </script>
 </body>
 </html>
